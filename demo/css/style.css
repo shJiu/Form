@@ -1,0 +1,51 @@
+*{
+			padding: 0px;
+			margin:0px;
+		}
+		body{
+			background: rgba(0,0,0,0.3);
+		}
+		.box{
+			width: 500px;
+			height: 400px;
+			background: #fff;
+			margin:0 auto;
+			margin-top: 100px;
+			border-radius: 10px;
+			text-align: center;
+		}
+		.box h2{
+			line-height: 30px;
+		}
+		.box #Myform>p{
+			line-height: 70px;
+			position: relative;
+		}
+		.box #Myform>p .tip{
+			position: absolute;
+			top: 30px;
+			left: 220px;
+			font-size: 14px;
+			color: red;
+			font-weight: bold;
+		}
+		.box input{
+			width: 200px;
+			height: 30px;
+			border:0px;
+			border:1px solid #ccc;
+		}
+		.box label{
+			font-weight: bold;
+		}
+		button{
+			width: 200px;
+			height: 35px;
+			border:0px;
+			border-radius: 5px;
+			color: #fff;
+			background: #ffcc33;
+			font-size: 20px;
+			cursor: pointer;
+			margin-top: 25px;
+		}
